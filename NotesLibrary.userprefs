@@ -1,5 +1,12 @@
 ﻿<Properties StartupConfiguration="{5D9B564E-818F-4057-BAA5-B57917A5240A}|Default">
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="NotesLibrary/DataAccess.cs">
+    <Files>
+      <File FileName="NotesLibrary/App.xaml.cs" Line="13" Column="1" />
+      <File FileName="NotesLibrary/HomePage.xaml.cs" Line="39" Column="26" />
+      <File FileName="NotesLibrary/Song.cs" Line="7" Column="1" />
+      <File FileName="NotesLibrary/DataAccess.cs" Line="23" Column="25" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
