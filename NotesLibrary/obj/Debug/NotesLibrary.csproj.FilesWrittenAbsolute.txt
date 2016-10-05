@@ -15,3 +15,9 @@
 /Users/PabloSz/Projects/NotesLibrary/NotesLibrary/bin/Debug/SQLite.Net.dll
 /Users/PabloSz/Projects/NotesLibrary/NotesLibrary/obj/Debug/NotesLibrary.HomePage.xaml
 /Users/PabloSz/Projects/NotesLibrary/NotesLibrary/obj/Debug/NotesLibrary.HomePage.xaml.g.cs
+/Users/PabloSz/Projects/NotesLibrary/NotesLibrary/obj/Debug/NotesLibrary.EditPage.xaml
+/Users/PabloSz/Projects/NotesLibrary/NotesLibrary/obj/Debug/NotesLibrary.EditPage.xaml.g.cs
+/Users/PabloSz/Projects/NotesLibrary/NotesLibrary/bin/Debug/Microsoft.Practices.ServiceLocation.dll
+/Users/PabloSz/Projects/NotesLibrary/NotesLibrary/bin/Debug/GalaSoft.MvvmLight.dll
+/Users/PabloSz/Projects/NotesLibrary/NotesLibrary/bin/Debug/GalaSoft.MvvmLight.Extras.dll
+/Users/PabloSz/Projects/NotesLibrary/NotesLibrary/bin/Debug/nunit.framework.dll

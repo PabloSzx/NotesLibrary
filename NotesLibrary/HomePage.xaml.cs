@@ -13,6 +13,8 @@ namespace NotesLibrary
 
 			nuevoButton.Clicked += nuevoButton_Clicked;
 
+			datosListView.ItemSelected += DatosListView_ItemSelected;
+			datosListView.ItemTemplate = new DataTemplate(typeof(SongCell));
 			using (var datos = new DataAccess())
 			{
 				datosListView.ItemsSource = datos.GetSongs();
@@ -44,5 +46,10 @@ namespace NotesLibrary
 			await DisplayAlert("Mensaje", "Cancion ingresada correctamente", "Aceptar");
 
 		}
-}
+
+		void DatosListView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+		{
+			Navigation.PushAsync(new EditPage((Song)e.SelectedItem));
+		}
+	}
 }

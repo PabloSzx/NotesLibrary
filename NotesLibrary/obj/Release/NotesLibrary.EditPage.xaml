@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+		xmlns="http://xamarin.com/schemas/2014/forms" 
+		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+		x:Class="NotesLibrary.EditPage">
+
+	<ScrollView>
+
+	<StackLayout Padding="10" Spacing="10">
+	<Label Text="Editar Cancion" 
+					Font="24" 
+					HorizontalOptions="Center" 
+					VerticalOptions="Center"
+					FontAttributes="Bold"/>
+
+			<Entry x:Name="NombreEntry" 
+				Placeholder="Nombre"/>
+			<Editor x:Name="TextEntry" 
+				HeightRequest="120"/>
+			
+			<StackLayout Orientation="Horizontal">
+				
+			<Button x:Name="ActualizarButton" 
+					HorizontalOptions="Center"
+					BackgroundColor="Yellow"
+					TextColor="Black"
+					Text="Actualizar" />
+			<Button x:Name="BorrarButton" 
+					HorizontalOptions="Center"
+					BackgroundColor="Yellow"
+					TextColor="Black"
+					Text="Borrar" />
+
+			</StackLayout>
+			<Grid>
+				
+			<Grid.RowDefinitions>
+				<RowDefinition Height="*"></RowDefinition>
+				<RowDefinition Height="*"></RowDefinition>
+				<RowDefinition Height="*"></RowDefinition>
+				<RowDefinition Height="*"></RowDefinition>
+				<RowDefinition Height="*"></RowDefinition>
+				<RowDefinition Height="*"></RowDefinition>
+			</Grid.RowDefinitions>
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="*"></ColumnDefinition>
+				<ColumnDefinition Width="*"></ColumnDefinition>
+				<ColumnDefinition Width="*"></ColumnDefinition>
+				<ColumnDefinition Width="*"></ColumnDefinition>
+				<ColumnDefinition Width="*"></ColumnDefinition>
+				<ColumnDefinition Width="*"></ColumnDefinition>
+			</Grid.ColumnDefinitions>
+
+			<Button Grid.Column="3" Grid.Row="3" Text="Hola Mundo"></Button> 
+				
+			</Grid>
+
+		</StackLayout>
+
+	</ScrollView>
+
+	
+</ContentPage>

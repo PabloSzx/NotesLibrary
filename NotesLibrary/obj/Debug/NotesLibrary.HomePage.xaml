@@ -3,20 +3,17 @@
 		xmlns="http://xamarin.com/schemas/2014/forms" 
 		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
 		x:Class="NotesLibrary.HomePage">
-	<ScrollView>
+	
 	<StackLayout Padding="10" Spacing="10">
-		<Label Text="Empleados"
+		<Label Text="NotesLibrary"
 				Font="24"
 				HorizontalOptions="Center"
 				TextColor="Black"/>
 
 		<Entry x:Name="nombresEntry"
 				Placeholder="Nombre"/>
-		<Entry x:Name="textEntry"
-				Placeholder="Texto"/>
-		<Label Text="Activo"
-				TextColor="Black"/>
-		<Switch x:Name="activoSwitch" IsToggled="true"/>
+		<Editor x:Name="textEntry"
+				HeightRequest="50"/>
 	
 
 	<Button x:Name="nuevoButton"
@@ -24,7 +21,10 @@
 			HorizontalOptions="Center"
 			BackgroundColor="Yellow"
 			TextColor="Black"/>
-	<ListView x:Name="datosListView"/>
+	<ListView x:Name="datosListView"
+				HasUnevenRows="true"/>
+	
 			</StackLayout>
-		</ScrollView>
+		
+		
 </ContentPage>

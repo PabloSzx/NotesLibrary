@@ -6,7 +6,7 @@ namespace NotesLibrary
 	{
 		public App()
 		{
-			MainPage = new HomePage();
+			MainPage = new NavigationPage(new HomePage());
 		}
 	}
 }
